@@ -1,1 +1,27 @@
+/* .App {
+    background: url(https://wallpaperaccess.com/full/2604791.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+} */
 
+.home-workout-card:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.home-about-card:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.home-motivation-card:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.home-signup-card:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}

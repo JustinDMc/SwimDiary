@@ -11,12 +11,13 @@ puts "Users generated successfully!"
 puts "Generating workouts..."
 workout1 = Workout.create(
     warmup: 
-    "6x100's @1:30 // [odds: free, evens: 50free/25stroke/25free]", 
+    '6x100`s @1:30 // [odds: free, evens: 50free/25stroke/25free]', 
     # 9 minutes total
     preset: 
-    "3 rounds:\n\-2x75's @1:10 // [25streamline kick on back/25bodyline flutter kick/25rotation flutter kick]
+    "3 rounds:
+        -2x75's @1:10 // [25streamline kick on back/25bodyline flutter kick/25rotation flutter kick]
         -4x50's @:55 // [25 3/4 catchup breathe every stroke/25freestyle 1 breath]
-        -6x25's @:30 // [1&2: 60% effort, 3&4: 80% effort, 5 max, 6 ez]".html_safe,
+        -6x25's @:30 // [1&2: 60% effort, 3&4: 80% effort, 5 max, 6 ez]",
     # 36 minutes total
     mainset: 
     "3 rounds:

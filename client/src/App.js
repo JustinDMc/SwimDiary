@@ -1,9 +1,10 @@
 import './App.css';
 import React, {useEffect, useState } from "react";
 import { Route, Switch } from 'react-router-dom';
-import NavBar from './NavBar.js'
-import About from "./About.js"
-import Home from "./Home.js"
+import NavBar from './NavBar.js';
+import About from "./About.js";
+import Home from "./Home.js";
+import WorkoutPage from "./WorkoutPage.js";
 
 function App() {
 
@@ -20,10 +21,13 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path ="/">
-          <Home workoutCollection={workoutCollection}/>
+          <Home />
         </Route>
         <Route exact path ="/about">
           <About />
+        </Route>
+        <Route exact path ="/workoutpage">
+          <WorkoutPage workoutCollection={workoutCollection}/>
         </Route>
       </Switch>
     </div>
