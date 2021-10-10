@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   
   resources :workouts, only: [:index]
 
+  resources :workout_breakdowns, only: [:index]
+
   resources :cycles, only: [:index]
 
   resources :cycle_workouts, only: [:index]

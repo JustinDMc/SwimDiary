@@ -17,8 +17,17 @@ function Home( ) {
                 </div>
             </a>
 
-            <div className="home-motivation-card" style={{border: "2px solid black", marginTop: "60%", minHeight: "300px", borderRadius: "12px", backgroundColor: "#7e8df2"}}>
-            <h1 style={{textAlign: "center", marginTop: "40%"}}>Motivation</h1>
+            <div className="flip-card" style={{ marginTop: "60%", borderRadius: "12px white"}}>
+                <div className="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://wallpaperaccess.com/full/2604791.jpg" alt="Avatar" style={{width: "300px", height: "300px", borderRadius: "12px"}} />
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
             </div>
 
             <div className="home-signup-card" style={{border: "2px solid black", marginTop: "60%", borderRadius: "12px", backgroundColor: "#7e8df2"}}>

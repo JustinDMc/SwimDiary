@@ -10,40 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_04_191322) do
+ActiveRecord::Schema.define(version: 0) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "cycle_workouts", force: :cascade do |t|
-    t.integer "cycle_id"
-    t.integer "workout_id"
-  end
-
-  create_table "cycles", force: :cascade do |t|
-    t.integer "cyclenumber"
-  end
-
-  create_table "types", force: :cascade do |t|
-    t.string "type"
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "username"
-    t.string "email"
-    t.string "password_digest"
-  end
-
-  create_table "workout_types", force: :cascade do |t|
-    t.integer "workout_id"
-    t.integer "type_id"
-  end
-
-  create_table "workouts", force: :cascade do |t|
-    t.string "warmup"
-    t.string "preset"
-    t.string "mainset"
-    t.string "warmdown"
-  end
 
 end
